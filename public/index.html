@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sera — Lifestyle Content Creator. Berbagi momen sehari-hari, thoughts random, dan cozy vibes dari sudut kecil internet." />
+  <title>Sera | Lifestyle Content Creator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+
+  <main class="page">
+    <section class="profile-panel">
+      <div class="name-block">
+        <h1>Sera Aveline</h1>
+        <div class="name-line"></div>
+      </div>
+      <p class="subtitle">Lifestyle Content Creator &nbsp;·&nbsp; Photography &nbsp;·&nbsp; Skincare &nbsp;·&nbsp; Cozy Vibes</p>
+
+      <div class="intro-wrap">
+        <div class="avatar-outer">
+          <div class="avatar-ring"></div>
+          <div class="avatar-wrap">
+            <video
+              class="avatar-video"
+              autoplay muted loop playsinline
+              preload="metadata"
+              poster="/images/profile.jpg"
+              aria-label="Sera profile video"
+            >
+              <source src="/images/seraprofile.mp4" type="video/mp4" />
+              <img src="/images/profile.jpg" alt="Sera profile photo" />
+            </video>
+          </div>
+        </div>
+
+        <div class="profile-copy">
+          <p>Hai! Aku Sera, konten kreator lifestyle yang suka berbagi momen sehari-hari, thoughts random, dan little cozy things from my little corner of the internet.</p>
+
+          <div class="socials">
+            <a href="https://www.facebook.com/profile.php?id=61588700367561" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-btn" id="social-facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/seraaveline/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-btn" id="social-instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://www.tiktok.com/@renderthedream" target="_blank" rel="noopener noreferrer" aria-label="TikTok" class="social-btn" id="social-tiktok">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.63z"/></svg>
+            </a>
+            <a href="https://x.com/avelinesera" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" class="social-btn" id="social-x">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+
+          <div class="cta-row">
+            <a class="donate-btn" href="https://trakteer.id/seraaveline" target="_blank" rel="noopener noreferrer" aria-label="Support Sera on Trakteer" id="donate-trakteer">
+              <span>☕</span> Support Sera di Trakteer
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Chat Toggle -->
+  <button class="chat-toggle" id="chatToggle" aria-label="Chat dengan Sera" aria-expanded="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    <span id="chatToggleLabel">Chat</span>
+  </button>
+
+  <!-- Chat Panel -->
+  <aside class="chat-card" id="chatCard" aria-label="Chat with Sera" aria-hidden="true">
+    <div class="chat-head">
+      <div class="chat-head-left">
+        <div class="chat-avatar-sm">S</div>
+        <div>
+          <h2>Chat with Sera</h2>
+          <p class="chat-status"><span class="status-dot"></span>Online sekarang</p>
+        </div>
+      </div>
+      <div class="chat-head-right">
+        <label class="mode-picker" for="chatMode">
+          <select id="chatMode" aria-label="Chat mode">
+            <option value="bucin">💕 Bucin</option>
+            <option value="galak">😤 Galak</option>
+            <option value="savage">🔥 Savage</option>
+          </select>
+        </label>
+        <button class="close-chat" id="closeChat" type="button" aria-label="Close chat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" width="16" height="16"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="chatMessages" class="chat-messages" aria-live="polite"></div>
+
+    <form id="chatForm" class="chat-form">
+      <input
+        id="chatInput"
+        type="text"
+        placeholder="Ketik pesanmu..."
+        maxlength="500"
+        autocomplete="off"
+        required
+      />
+      <button type="submit" class="send-btn" aria-label="Kirim pesan" id="sendBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+      </button>
+    </form>
+  </aside>
+
+  <script src="/script.js"></script>
+</body>
+</html>

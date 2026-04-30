@@ -1,0 +1,13 @@
+# Environment variables — JANGAN PERNAH di-push ke GitHub!
+.env
+
+# Dependencies — install ulang dengan npm install
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*

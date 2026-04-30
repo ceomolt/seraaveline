@@ -1,0 +1,21 @@
+{
+  "name": "cursorproject",
+  "version": "1.0.0",
+  "description": "Sera personal landing page with secure AI chat proxy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "landing-page",
+    "ai-chat"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2"
+  }
+}
